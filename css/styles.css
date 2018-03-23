@@ -1,11 +1,19 @@
+h3  {
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .splash h1 {
   font-size: 100px;
 }
+
 .splash h3 {
   font-size: 30px;
   margin-bottom: 20px;
   font-weight: bold;
 }
+
 .invis {
   display: none;
 }
@@ -18,6 +26,7 @@
   height: auto;
   margin-top: 25px;
 }
+
 #btncenter  {
   display; block;
   text-align: center;
@@ -49,13 +58,14 @@
 #form1 {
   background-image: url(../imgs/map.jpg)
 }
+
 .row {
   width: 1000px;
   margin: auto;
   box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.6);
   background-image: url(../imgs/index.jpg);
-
 }
+
 #results {
   margin-top: 25px;
 
