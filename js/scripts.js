@@ -14,7 +14,7 @@ $(document).ready(function() {
     if (result <= 9 ) {
       $(".css").show();
     } else if (result >= 9 && result <= 13 ) {
-      $(".php").show();
+      $(".ruby").show();
     } else {
       $(".csharp").show();
     };
