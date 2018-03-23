@@ -12,11 +12,11 @@ $(document).ready(function() {
     var result = question1 + question2 + question3 + question4 + question5 + question6;
 
     if (result < 9 ) {
-      $(".css").show();
+      $(".css").fadeIn();
     } else if (result >= 9 && result < 13 ) {
-      $(".ruby").show();
+      $(".ruby").fadeIn();
     } else {
-      $(".csharp").show();
+      $(".csharp").fadeIn();
     };
 
     $(".btnresult").click(function(){
