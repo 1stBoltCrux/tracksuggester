@@ -11,17 +11,18 @@ $(document).ready(function() {
 
     var result = question1 + question2 + question3 + question4 + question5 + question6;
 
-    if (result <= 9 ) {
+    if (result < 9 ) {
       $(".css").show();
-    } else if (result >= 9 && result <= 13 ) {
+    } else if (result >= 9 && result < 13 ) {
       $(".ruby").show();
     } else {
       $(".csharp").show();
     };
 
     $(".btnresult").click(function(){
-      $("#results").hide();
-      $("#form1").show();
+      // used a reload method instead of getting button to hide results and re-show the form, couldn't get the results to show again on second quiz submit
+    location.reload();
+
     });
 
     event.preventDefault();
