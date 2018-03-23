@@ -1,6 +1,5 @@
 .splash h1 {
   font-size: 100px;
-  drop-shadow:
 }
 .splash h3 {
   font-size: 30px;
@@ -17,12 +16,18 @@
   margin-right: auto;
   max-width: 300px;
   height: auto;
+  margin-top: 25px;
 }
-#btncenter {
+#btncenter  {
   display; block;
-text-align: center;
+  text-align: center;
 }
 
+.btn-danger {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.6);
+}
 .splash {
   text-align: center;
   padding: 200px;
@@ -33,10 +38,29 @@ text-align: center;
 }
 
 .innersplash {
-  box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.6);
   background-image: url(../imgs/index.jpg);
   background-size: cover;
   font-family: 'Nanum Pen Script', cursive;
   opacity: 0.95;
   padding-bottom: 10px;
 }
+
+#form1 {
+  background-image: url(../imgs/map.jpg)
+}
+.row {
+  width: 1000px;
+  margin: auto;
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.6);
+  background-image: url(../imgs/index.jpg);
+
+}
+#results {
+  margin-top: 25px;
+
+}
+ #results h1 {
+   text-align: center;
+   font-family: 'Nanum Pen Script', cursive;
+ }
